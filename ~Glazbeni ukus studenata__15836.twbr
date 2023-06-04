@@ -1,0 +1,2014 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' inline='true' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Glazbeni ukus studenata (Odgovori)_OCISCENO' name='excel-direct.0vxphc01ymvpg819c3qco1xzs85l'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Glazbeni ukus studenata (Odgovori)_OCISCENO.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0vxphc01ymvpg819c3qco1xzs85l' name='Odgovori' table='[Odgovori$]' type='table'>
+          <columns gridOrigin='A1:P389:no:A1:P389:0' header='yes' outcome='2'>
+            <column datatype='string' name='Spol' ordinal='0' />
+            <column datatype='string' name='Dob' ordinal='1' />
+            <column datatype='string' name='Na kojem fakultetu studirate?' ordinal='2' />
+            <column datatype='integer' name='Trenutna godina studiranja' ordinal='3' />
+            <column datatype='string' name='Koliko vremena provodite slušajući glazbu dnevno?' ordinal='4' />
+            <column datatype='integer' name='Koliko vam je glazba bitna?' ordinal='5' />
+            <column datatype='string' name='Koji su vaši omiljeni žanrovi?' ordinal='6' />
+            <column datatype='string' name='Koji su vaši omiljeni izvođači? (top 5)' ordinal='7' />
+            <column datatype='string' name='Preferirate li slušati stranu ili domaću glazbu?' ordinal='8' />
+            <column datatype='string' name='Kako slušate glazbu?' ordinal='9' />
+            <column datatype='string' name='Najčešće slušam:' ordinal='10' />
+            <column datatype='string' name='Kakvu glazbu slušate na izlascima?' ordinal='11' />
+            <column datatype='string' name='Slušate li glazbu dok učite ili radite?' ordinal='12' />
+            <column datatype='string' name='Gdje najviše slušate glazbu?' ordinal='13' />
+            <column datatype='string' name='Što vam je najbitnije u glazbi?' ordinal='14' />
+            <column datatype='string' name='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0vxphc01ymvpg819c3qco1xzs85l' name='Odgovori' table='[Odgovori$]' type='table'>
+          <columns gridOrigin='A1:P389:no:A1:P389:0' header='yes' outcome='2'>
+            <column datatype='string' name='Spol' ordinal='0' />
+            <column datatype='string' name='Dob' ordinal='1' />
+            <column datatype='string' name='Na kojem fakultetu studirate?' ordinal='2' />
+            <column datatype='integer' name='Trenutna godina studiranja' ordinal='3' />
+            <column datatype='string' name='Koliko vremena provodite slušajući glazbu dnevno?' ordinal='4' />
+            <column datatype='integer' name='Koliko vam je glazba bitna?' ordinal='5' />
+            <column datatype='string' name='Koji su vaši omiljeni žanrovi?' ordinal='6' />
+            <column datatype='string' name='Koji su vaši omiljeni izvođači? (top 5)' ordinal='7' />
+            <column datatype='string' name='Preferirate li slušati stranu ili domaću glazbu?' ordinal='8' />
+            <column datatype='string' name='Kako slušate glazbu?' ordinal='9' />
+            <column datatype='string' name='Najčešće slušam:' ordinal='10' />
+            <column datatype='string' name='Kakvu glazbu slušate na izlascima?' ordinal='11' />
+            <column datatype='string' name='Slušate li glazbu dok učite ili radite?' ordinal='12' />
+            <column datatype='string' name='Gdje najviše slušate glazbu?' ordinal='13' />
+            <column datatype='string' name='Što vam je najbitnije u glazbi?' ordinal='14' />
+            <column datatype='string' name='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P389:no:A1:P389:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spol</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Spol]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Spol</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dob</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dob]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Dob</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Na kojem fakultetu studirate?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Na kojem fakultetu studirate?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Na kojem fakultetu studirate?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trenutna godina studiranja</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trenutna godina studiranja]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Trenutna godina studiranja</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Koliko vremena provodite slušajući glazbu dnevno?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Koliko vremena provodite slušajući glazbu dnevno?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Koliko vremena provodite slušajući glazbu dnevno?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Koliko vam je glazba bitna?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Koliko vam je glazba bitna?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Koliko vam je glazba bitna?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Koji su vaši omiljeni žanrovi?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Koji su vaši omiljeni žanrovi?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Koji su vaši omiljeni žanrovi?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Koji su vaši omiljeni izvođači? (top 5)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Koji su vaši omiljeni izvođači? (top 5)]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Koji su vaši omiljeni izvođači? (top 5)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Preferirate li slušati stranu ili domaću glazbu?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Preferirate li slušati stranu ili domaću glazbu?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Preferirate li slušati stranu ili domaću glazbu?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kako slušate glazbu?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Kako slušate glazbu?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Kako slušate glazbu?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Najčešće slušam:</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Najčešće slušam:]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Najčešće slušam:</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kakvu glazbu slušate na izlascima?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Kakvu glazbu slušate na izlascima?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Kakvu glazbu slušate na izlascima?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Slušate li glazbu dok učite ili radite?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Slušate li glazbu dok učite ili radite?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Slušate li glazbu dok učite ili radite?</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gdje najviše slušate glazbu?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gdje najviše slušate glazbu?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Gdje najviše slušate glazbu?</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Što vam je najbitnije u glazbi?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Što vam je najbitnije u glazbi?]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Što vam je najbitnije u glazbi?</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]</local-name>
+            <parent-name>[Odgovori]</parent-name>
+            <remote-alias>Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LHR_RHR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Odgovori_089CFAECFCC94C428084C5B950F1F142]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Kako slušate glazbu?]' role='dimension' type='nominal' />
+      <column caption='Kakvu glazbu slušate na izlascima? - Split 1' datatype='string' name='[Kakvu glazbu slušate na izlascima? - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='7' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Kakvu glazbu slušate na izlascima?]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Kakvu glazbu slušate na izlascima?], &quot; &quot;, 1 ) )' />
+      </column>
+      <column caption='Kakvu glazbu slušate na izlascima? - Split 2' datatype='string' name='[Kakvu glazbu slušate na izlascima? - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='8' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Kakvu glazbu slušate na izlascima?]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Kakvu glazbu slušate na izlascima?], &quot; &quot;, 2 ) )' />
+      </column>
+      <column caption='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 1' datatype='string' name='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.], &quot;,&quot;, 1 ) )' />
+      </column>
+      <column caption='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2' datatype='string' name='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.], &quot;,&quot;, 2 ) )' />
+      </column>
+      <column caption='Koji instrument (ili instrumente) svirate?' datatype='string' name='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]' role='dimension' type='nominal' />
+      <column caption='Koji su vaši omiljeni izvođači? (top 5) - Split 1' datatype='string' name='[Koji su vaši omiljeni izvođači? (top 5) - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni izvođači? (top 5)]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Koji su vaši omiljeni izvođači? (top 5)], &quot;,&quot;, 1 ) )' />
+      </column>
+      <column caption='Koji su vaši omiljeni izvođači? (top 5) - Split 2' datatype='string' name='[Koji su vaši omiljeni izvođači? (top 5) - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='5' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni izvođači? (top 5)]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Koji su vaši omiljeni izvođači? (top 5)], &quot;,&quot;, 2 ) )' />
+      </column>
+      <column caption='Koji su vaši omiljeni izvođači? (top 5) - Split 3' datatype='string' name='[Koji su vaši omiljeni izvođači? (top 5) - Split 3]' role='dimension' type='nominal' user:SplitFieldIndex='6' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni izvođači? (top 5)]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Koji su vaši omiljeni izvođači? (top 5)], &quot;,&quot;, 3 ) )' />
+      </column>
+      <column caption='Koji su vaši omiljeni žanrovi? - Split 1' datatype='string' name='[Koji su vaši omiljeni žanrovi? - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni žanrovi?]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( [Koji su vaši omiljeni žanrovi?], &quot;Pop&quot;, 2 ), &quot;,&quot;, 2 ) )' />
+      </column>
+      <column datatype='string' name='[Koliko vremena provodite slušajući glazbu dnevno?]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Na kojem fakultetu studirate?]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Trenutna godina studiranja]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcdf:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Columns' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcrk:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' rank-options='Competition,Ascending' type='PctRank' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Kako slušate glazbu?]' derivation='None' name='[none:Kako slušate glazbu?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Koliko vremena provodite slušajući glazbu dnevno?]' derivation='None' name='[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Na kojem fakultetu studirate?]' derivation='None' name='[none:Na kojem fakultetu studirate?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[pcrk:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' rank-options='Competition,Ascending' type='PctRank' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:6]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Trenutna godina studiranja]' derivation='Sum' name='[sum:Trenutna godina studiranja:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Kako slušate glazbu?,Na kojem fakultetu studirate?)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Kako slušate glazbu?:nk]' />
+          <groupfilter function='level-members' level='[none:Na kojem fakultetu studirate?:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[sum:Trenutna godina studiranja:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcdf:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcrk:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[pcrk:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:6]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Kako slušate glazbu?:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aktivno slušanje - glazbi pridajem pozornost te razmišljam o tome što slušam&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Responsivno slušanje - reagiram na glazbu, plešem, pjevam, lupkam nogom, itd.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pasivno slušanje - glazbi ne pridajem pozornost nego je koristim za ispunjavanje tišine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pasivno slušanje - glazba ne pridajem pozornost nego je koristim za ispunjavanje tišine&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Croatia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Odgovori' id='Odgovori_089CFAECFCC94C428084C5B950F1F142'>
+            <properties context=''>
+              <relation connection='excel-direct.0vxphc01ymvpg819c3qco1xzs85l' name='Odgovori' table='[Odgovori$]' type='table'>
+                <columns gridOrigin='A1:P389:no:A1:P389:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Spol' ordinal='0' />
+                  <column datatype='string' name='Dob' ordinal='1' />
+                  <column datatype='string' name='Na kojem fakultetu studirate?' ordinal='2' />
+                  <column datatype='integer' name='Trenutna godina studiranja' ordinal='3' />
+                  <column datatype='string' name='Koliko vremena provodite slušajući glazbu dnevno?' ordinal='4' />
+                  <column datatype='integer' name='Koliko vam je glazba bitna?' ordinal='5' />
+                  <column datatype='string' name='Koji su vaši omiljeni žanrovi?' ordinal='6' />
+                  <column datatype='string' name='Koji su vaši omiljeni izvođači? (top 5)' ordinal='7' />
+                  <column datatype='string' name='Preferirate li slušati stranu ili domaću glazbu?' ordinal='8' />
+                  <column datatype='string' name='Kako slušate glazbu?' ordinal='9' />
+                  <column datatype='string' name='Najčešće slušam:' ordinal='10' />
+                  <column datatype='string' name='Kakvu glazbu slušate na izlascima?' ordinal='11' />
+                  <column datatype='string' name='Slušate li glazbu dok učite ili radite?' ordinal='12' />
+                  <column datatype='string' name='Gdje najviše slušate glazbu?' ordinal='13' />
+                  <column datatype='string' name='Što vam je najbitnije u glazbi?' ordinal='14' />
+                  <column datatype='string' name='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Dob'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Dob]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dob]' derivation='None' name='[none:Dob:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Dob:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Dob:nk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</cols>
+      </table>
+      <simple-id uuid='{E67ED423-54A4-454E-9B9D-B841EAE77956}' />
+    </worksheet>
+    <worksheet name='Domaće ili strano'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Preferirate li slušati stranu ili domaću glazbu?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Preferirate li slušati stranu ili domaću glazbu?]' derivation='None' name='[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8FDE53A9-2893-4911-9C0D-5BD4722F2E03}' />
+    </worksheet>
+    <worksheet name='Domaće ili strano/faks'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column datatype='string' name='[Na kojem fakultetu studirate?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Preferirate li slušati stranu ili domaću glazbu?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Na kojem fakultetu studirate?]' derivation='None' name='[none:Na kojem fakultetu studirate?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Preferirate li slušati stranu ili domaću glazbu?]' derivation='None' name='[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]</cols>
+      </table>
+      <simple-id uuid='{FEF0E0CA-9A47-4262-A14A-E2980BE9349C}' />
+    </worksheet>
+    <worksheet name='Fakultet'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Na kojem fakultetu studirate?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Na kojem fakultetu studirate?]' derivation='None' name='[none:Na kojem fakultetu studirate?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]</cols>
+      </table>
+      <simple-id uuid='{8535DB98-E2E6-4F54-B6C4-700BCCDB2846}' />
+    </worksheet>
+    <worksheet name='Instrumenti'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column caption='Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2' datatype='string' name='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( [Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.], &quot;,&quot;, 2 ) )' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column caption='Koji instrument (ili instrumente) svirate?' datatype='string' name='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno.]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2]' derivation='None' name='[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]' member='&quot;&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='275' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</rows>
+        <cols>([federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk] / [federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji instrument (ili instrumente) svirate? Ako ne svirate ništa, ostavite prazno. - Split 2:nk])</cols>
+      </table>
+      <simple-id uuid='{3BC08338-8A4C-46DB-9125-55A240DF0076}' />
+    </worksheet>
+    <worksheet name='Izlasci'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column caption='Kakvu glazbu slušate na izlascima? - Split 1' datatype='string' name='[Kakvu glazbu slušate na izlascima? - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='7' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Kakvu glazbu slušate na izlascima?]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( [Kakvu glazbu slušate na izlascima?], &quot; &quot;, 1 ) )' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Kakvu glazbu slušate na izlascima?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Kakvu glazbu slušate na izlascima? - Split 1]' derivation='None' name='[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]' />
+              <groupfilter function='member' level='[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]' member='&quot;ne&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kakvu glazbu slušate na izlascima? - Split 1:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F71AB25F-2D2D-4A3F-BF0E-2547FFB5CEC9}' />
+    </worksheet>
+    <worksheet name='Izvođač'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column caption='Koji su vaši omiljeni izvođači? (top 5) - Split 1' datatype='string' name='[Koji su vaši omiljeni izvođači? (top 5) - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni izvođači? (top 5)]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( [Koji su vaši omiljeni izvođači? (top 5)], &quot;,&quot;, 1 ) )' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Koji su vaši omiljeni izvođači? (top 5)]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Koji su vaši omiljeni izvođači? (top 5) - Split 1]' derivation='None' name='[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]' />
+              <groupfilter function='member' level='[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni izvođači? (top 5) - Split 1:nk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</cols>
+      </table>
+      <simple-id uuid='{F8FC562F-AA5D-4553-938C-618F77339FD7}' />
+    </worksheet>
+    <worksheet name='Koje žanrove najčešće slušate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column caption='Koji su vaši omiljeni žanrovi? - Split 1' datatype='string' name='[Koji su vaši omiljeni žanrovi? - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[Koji su vaši omiljeni žanrovi?]'>
+              <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( [Koji su vaši omiljeni žanrovi?], &quot;Pop&quot;, 2 ), &quot;,&quot;, 2 ) )' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Koji su vaši omiljeni žanrovi?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Koji su vaši omiljeni žanrovi? - Split 1]' derivation='None' name='[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]' />
+              <groupfilter function='member' level='[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]' member='&quot;&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koji su vaši omiljeni žanrovi? - Split 1:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F99413B4-F97E-4223-B5B2-43FBF65C6BC3}' />
+    </worksheet>
+    <worksheet name='Melodija, tekst ili ritam'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Što vam je najbitnije u glazbi?]' derivation='None' name='[none:Što vam je najbitnije u glazbi?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[Što vam je najbitnije u glazbi?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Što vam je najbitnije u glazbi?:nk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</cols>
+      </table>
+      <simple-id uuid='{6A54D6AF-B67C-494B-B39A-83179E7BE301}' />
+    </worksheet>
+    <worksheet name='Mjesto slušanja glazbe'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gdje najviše slušate glazbu?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gdje najviše slušate glazbu?]' derivation='None' name='[none:Gdje najviše slušate glazbu?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Gdje najviše slušate glazbu?:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gdje najviše slušate glazbu?:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Gdje najviše slušate glazbu?:nk]' member='&quot;dok čistim grad od etničkih nečistoća&quot;' />
+                <groupfilter function='member' level='[none:Gdje najviše slušate glazbu?:nk]' member='&quot;sve navedeno&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Gdje najviše slušate glazbu?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Gdje najviše slušate glazbu?:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{89452C26-C18D-4FE9-982D-3D75D56838BB}' />
+    </worksheet>
+    <worksheet name='Najčešće se sluša'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Najčešće slušam:]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Najčešće slušam:]' derivation='None' name='[none:Najčešće slušam::nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Najčešće slušam::nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Najčešće slušam::nk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</cols>
+      </table>
+      <simple-id uuid='{DD0DC0E2-AB97-47DB-B410-8708183766F1}' />
+    </worksheet>
+    <worksheet name='Način slušanja glazbe'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Kako slušate glazbu?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Kako slušate glazbu?]' derivation='None' name='[none:Kako slušate glazbu?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kako slušate glazbu?:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Kako slušate glazbu?:nk]' />
+              <groupfilter function='member' level='[none:Kako slušate glazbu?:nk]' member='&quot;Pasivno slušanje - glazbi ne pridajem pozornost nego je koristim za ispunjavanje tišine&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kako slušate glazbu?:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kako slušate glazbu?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Kako slušate glazbu?:nk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</cols>
+      </table>
+      <simple-id uuid='{4456D23B-629F-4BF0-B83F-8083738FEF64}' />
+    </worksheet>
+    <worksheet name='Rad/fakultet'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column datatype='integer' name='[Koliko vam je glazba bitna?]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Na kojem fakultetu studirate?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Slušate li glazbu dok učite ili radite?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Na kojem fakultetu studirate?]' derivation='None' name='[none:Na kojem fakultetu studirate?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Slušate li glazbu dok učite ili radite?]' derivation='None' name='[none:Slušate li glazbu dok učite ili radite?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:6]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Koliko vam je glazba bitna?]' derivation='Sum' name='[sum:Koliko vam je glazba bitna?:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ygrxxb1b8be3i112qwc10zeenn1].[sum:Koliko vam je glazba bitna?:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:6]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]</rows>
+        <cols>([federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk] * [federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk])</cols>
+      </table>
+      <simple-id uuid='{5A1B5B8B-63D5-48BD-9C21-F7AFE699BDDE}' />
+    </worksheet>
+    <worksheet name='Slušate li glazbu dok radite?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Slušate li glazbu dok učite ili radite?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Slušate li glazbu dok učite ili radite?]' derivation='None' name='[none:Slušate li glazbu dok učite ili radite?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AB4DB248-CF82-41DD-A186-974CD998A9BD}' />
+    </worksheet>
+    <worksheet name='Spol'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Spol]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Spol]' derivation='None' name='[none:Spol:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='545' />
+            <format attr='height' value='375' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Spol:nk]' />
+              <wedge-size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <size column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Spol:nk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A3D100B4-FB79-4431-9A25-6FDB1442E18F}' />
+    </worksheet>
+    <worksheet name='Vrijeme slušanja glazbe'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Koliko vremena provodite slušajući glazbu dnevno?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Koliko vremena provodite slušajući glazbu dnevno?]' derivation='None' name='[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1-2 sata&quot;</bucket>
+              <bucket>&quot;3-5 sati&quot;</bucket>
+              <bucket>&quot;Manje od 1 sat&quot;</bucket>
+              <bucket>&quot;5-7 sati&quot;</bucket>
+              <bucket>&quot;Više od 7 sati&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' value='149' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' palette='orange_blue_white_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+              <text column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[pcto:cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk:2]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]</cols>
+      </table>
+      <simple-id uuid='{7199E8BC-5607-45F2-ABC3-B6A1783D940B}' />
+    </worksheet>
+    <worksheet name='Vrijeme slušanja/fakultet'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Odgovori (Glazbeni ukus studenata (Odgovori)_OCISCENO)' name='federated.1ygrxxb1b8be3i112qwc10zeenn1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ygrxxb1b8be3i112qwc10zeenn1'>
+            <column datatype='string' name='[Koliko vremena provodite slušajući glazbu dnevno?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Odgovori' datatype='integer' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Na kojem fakultetu studirate?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Odgovori' datatype='table' name='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Odgovori_089CFAECFCC94C428084C5B950F1F142]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Koliko vremena provodite slušajući glazbu dnevno?]' derivation='None' name='[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Na kojem fakultetu studirate?]' derivation='None' name='[none:Na kojem fakultetu studirate?:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]</rows>
+        <cols>[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Na kojem fakultetu studirate?:nk]</cols>
+      </table>
+      <simple-id uuid='{6039C584-41E1-49BF-B393-A0CC8DB92034}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Glazbene navike' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='9' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='6017' id='10' type-v2='title' w='98426' x='787' y='830'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92323' id='7' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='6847'>
+              <zone h='92323' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='6847'>
+                <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6847' />
+                <zone h='81846' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='17324'>
+                  <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                    <story-points>
+                      <story-point caption='Vrijeme slušanja' captured-sheet='Vrijeme slušanja glazbe' id='1' />
+                      <story-point caption='Vrijeme slušanja u odnosu na fakultet' captured-sheet='Vrijeme slušanja/fakultet' id='2' />
+                      <story-point caption='Način slušanja' captured-sheet='Najčešće se sluša' id='3' />
+                      <story-point caption='Glazba tijekom rada' captured-sheet='Slušate li glazbu dok radite?' id='4' />
+                      <story-point caption='Slušanje glazbe tijekom rada i fakultet' captured-sheet='Rad/fakultet' id='5' />
+                      <story-point caption='Mjesto slušanja glazbe' captured-sheet='Mjesto slušanja glazbe' id='6' />
+                      <story-point caption='Vrsta slušatelja' captured-sheet='Način slušanja glazbe' id='7' />
+                      <story-point caption='Strana ili domaća glazba' captured-sheet='Domaće ili strano' id='12' />
+                      <story-point caption='Strano ili domaće po fakultetu' captured-sheet='Domaće ili strano/faks' id='13' />
+                      <story-point caption='Najvažniji element glazbe' captured-sheet='Melodija, tekst ili ritam' id='8' />
+                      <story-point caption='Žanrovi koje studenti slušaju' captured-sheet='Koje žanrove najčešće slušate' id='9' />
+                      <story-point caption='Žanrovi na izlascima' captured-sheet='Izlasci' id='11' />
+                      <story-point caption='Omiljeni izvođači studenata' captured-sheet='Izvođač' id='10' />
+                      <story-point caption='Instrumenti koje sviraju' captured-sheet='Instrumenti' id='14' />
+                      <story-point caption='Zaključak' captured-sheet='' id='15' />
+                    </story-points>
+                  </flipboard>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='24274' hidden='true' id='11' story-point-id='15' type-v2='text' w='61220' x='20472' y='38071'>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759'>ZAKLJUČAK:</run>
+            <run>
+U istraživanju nisu opažene značajne razlike između glazbenog ukusa i navika između fakulteta koji su sudjelovali.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{335B7526-F6A6-4496-82D7-14A761B95DD4}' />
+    </dashboard>
+    <dashboard name='Glazbeni ukus studenata' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='255' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='11' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+              <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='830' />
+              <zone h='87863' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='11307'>
+                <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                  <story-points>
+                    <story-point caption='Glazbeni ukus studenata' captured-sheet='' id='1' />
+                  </story-points>
+                </flipboard>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='30602' id='6' story-point-id='1' type-v2='text' w='72835' x='13976' y='7054'>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontsize='22'>Pretpostavka:</run>
+            <run fontsize='22'> glazbeni ukus nije povezan sa fakultetom kojeg pohađaju</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='35581' id='7' story-point-id='1' type-v2='text' w='62795' x='19882' y='45124'>
+          <formatted-text>
+            <run fontsize='20'>Podaci prikupljeni uz pomoć Google Forms</run>
+            <run>Æ&#10;</run>
+            <run fontsize='20'>Anketa podijeljena na društvenim mrežama Facebook</run>
+            <run>Æ&#10;</run>
+            <run fontsize='20'>Anketi je ukupno pristupilo 390 sudionika</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{1223C80A-2F1F-4598-8678-55081D6D5EBD}' />
+    </dashboard>
+    <dashboard name='O suidonicima' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Spol' captured-sheet='Spol' id='1' />
+                  <story-point caption='Dob' captured-sheet='Dob' id='2' />
+                  <story-point caption='Fakultet kojeg pohađaju' captured-sheet='Fakultet' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{559FFB94-977E-472F-AEE3-FE702732584F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='dashboard' maximized='true' name='Glazbeni ukus studenata'>
+      <viewpoints />
+      <active id='6' />
+      <simple-id uuid='{E66979F8-3974-462B-9747-396656632088}' />
+    </window>
+    <window class='dashboard' name='O suidonicima'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{647F94CC-7258-40E9-87B6-6D20B35EAB08}' />
+    </window>
+    <window class='dashboard' name='Glazbene navike'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{BBFF5FC3-EEE7-47AD-B5AC-0AEA7879521D}' />
+    </window>
+    <window class='worksheet' name='Spol'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Spol:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B271470C-4162-462A-ACAA-A8CD3C433B6D}' />
+    </window>
+    <window class='worksheet' name='Dob'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4BF4442B-E036-456A-B96B-9321717287D4}' />
+    </window>
+    <window class='worksheet' name='Fakultet'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{74CFD2E6-CAF7-4DF8-962E-7584AFB3CED2}' />
+    </window>
+    <window class='worksheet' name='Izvođač'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B37280E5-C344-46FE-B3FB-438F1F11743C}' />
+    </window>
+    <window class='worksheet' name='Rad/fakultet'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0C885B71-5646-41EE-9C10-45800FC3D269}' />
+    </window>
+    <window class='worksheet' name='Koje žanrove najčešće slušate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE3D0B5F-B822-483A-B5A3-C9CA1E98C6CB}' />
+    </window>
+    <window class='worksheet' name='Izlasci'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D059170A-479D-4B9B-9AA4-DE60F91B6CAA}' />
+    </window>
+    <window class='worksheet' name='Vrijeme slušanja glazbe'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{57D80CBA-172D-49E9-8A78-2FB4F97363EE}' />
+    </window>
+    <window class='worksheet' name='Vrijeme slušanja/fakultet'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Koliko vremena provodite slušajući glazbu dnevno?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5B5C9C74-97F7-4385-B599-6D4C34A723DB}' />
+    </window>
+    <window class='worksheet' name='Najčešće se sluša'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2419FC37-E78E-4711-8F0C-B4AD4B6D6F05}' />
+    </window>
+    <window class='worksheet' name='Mjesto slušanja glazbe'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{73AB2DBB-781A-4B02-8D5F-BD6E1E699863}' />
+    </window>
+    <window class='worksheet' name='Način slušanja glazbe'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6246F8BA-2F39-4072-A18A-9BBD620AEB0D}' />
+    </window>
+    <window class='worksheet' name='Slušate li glazbu dok radite?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Slušate li glazbu dok učite ili radite?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{32911247-4AF3-42EE-A3E5-94855A88658F}' />
+    </window>
+    <window class='worksheet' name='Domaće ili strano'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{27ED6410-2C63-4DBB-87FD-7B2E011ED447}' />
+    </window>
+    <window class='worksheet' name='Domaće ili strano/faks'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[none:Preferirate li slušati stranu ili domaću glazbu?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7758EC05-AD32-4912-B4C7-88150C71A83C}' />
+    </window>
+    <window class='worksheet' name='Melodija, tekst ili ritam'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{588BBDF2-A7D4-40D9-809B-640831EF1877}' />
+    </window>
+    <window class='worksheet' name='Instrumenti'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ygrxxb1b8be3i112qwc10zeenn1].[__tableau_internal_object_id__].[cnt:Odgovori_089CFAECFCC94C428084C5B950F1F142:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44C3761B-605F-41E1-A5AA-DA80D7C5C3B2}' />
+    </window>
+  </windows>
+</workbook>
